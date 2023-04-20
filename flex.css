@@ -1,0 +1,43 @@
+@charset "HTF-8";
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 800px;
+    height: 800px;
+    border: solid 1px greenyellow;
+}
+
+.item1 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+    border-radius: 9px;
+}
+
+.item2 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    border-radius: 9px;
+}
+
+.item3 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    border-radius: 9px;
+}

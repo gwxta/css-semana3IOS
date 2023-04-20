@@ -1,0 +1,32 @@
+#nome:focus {
+    background-color: black;
+    color: whitesmoke;
+    
+}
+#nome {
+    border-radius: 30px;
+}
+
+body {
+    background-color: rgb(197, 197, 191);
+    font-size: 20px;
+}
+
+#link1 a:active {
+    color: rgb(154, 236, 30);
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.p1::after {
+    content: " Leia mais";
+}
+
+.p2::before {
+    content: "Valor...";
+}
+
+.p3::selection {
+    background-color: green;
+    color: pink;
+}
